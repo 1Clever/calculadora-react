@@ -1,0 +1,39 @@
+:root{
+    --bg-button:aliceblue;
+    --border-button:solid 1px gray;
+}/* criar variavel*/
+
+.button{
+    font-size: 1.4em;
+    background-color: var(--bg-button);
+    border:none;
+    border-right: var(--border-button);
+    border-bottom: var(--border-button);
+    outline: none;
+}
+
+.button.normal.fonte{
+    font-weight: bold;
+}
+
+.button:active{
+    background-color:gray;
+}/* deixar o botão cinza ao clicar*/
+
+.button.double{
+    grid-column: span 2;
+
+}
+
+.button.triple{
+    grid-column: span 3;
+}
+
+.button.operation{
+    background-color:orangered;
+    color:black
+}
+
+.button.operation:active{
+    background-color:orange;
+}
